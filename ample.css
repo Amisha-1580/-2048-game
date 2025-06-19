@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #faf8ef;
+  }
+  
+  #game-container {
+    text-align: center;
+    background-color: #bbada0;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #776e65;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  #grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: #cdc1b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #776e65;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+  }
+  
+  .tile-2 { background-color: #eee4da; }
+  .tile-4 { background-color: #ede0c8; }
+  .tile-8 { background-color: #f2b179; }
+  .tile-16 { background-color: #f59563; }
+  .tile-32 { background-color: #f67c5f; }
+  .tile-64 { background-color: #f65e3b; }
+  .tile-128 { background-color: #edcf72; }
+  .tile-256 { background-color: #edcc61; }
+  .tile-512 { background-color: #edc850; }
+  .tile-1024 { background-color: #edc53f; }
+  .tile-2048 { background-color: #edc22e; }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #8f7a66;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #776e65;
+  }
+  
+  button:active {
+    background-color: #665c46;
+  }
+  
