@@ -1,9 +1,4 @@
-
 ---
 
-### 📄 `requirements.txt`
 
-This project doesn't use any Python packages (it's pure front-end), but if you're using GitHub or deploying through Python-related tools, the file could be added just for compatibility.
 
-```txt
-# No dependencies required. This project is built with HTML, CSS, and JS.
